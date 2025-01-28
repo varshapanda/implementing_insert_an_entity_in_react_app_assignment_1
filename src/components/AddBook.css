@@ -1,0 +1,57 @@
+.add-book-form-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-book-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .add-book-form input,
+  .add-book-form textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    background-color: #2532ea;
+    color: white;
+  }
+  
+  button[type="button"] {
+    background-color: #585656;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
